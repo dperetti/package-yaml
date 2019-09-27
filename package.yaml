@@ -1,5 +1,5 @@
 name: package-yaml
-version: 0.8.0
+version: 1.0.0
 description: Reversible YAML parsing for package.json
 author: Danielle Church <dani.church@gmail.com>
 license: MIT
@@ -10,6 +10,7 @@ keywords:
   - yaml
 
 main: index.js
+types: index.d.ts
 scripts:
   build: tsc
   watch: tsc --watch
