@@ -24,11 +24,17 @@ homepage: https://github.com/dmchurch/package-yaml#readme
 
 dependencies:
   deep-diff: ^1.0.2
-  yaml: ^1.6.0
+  yaml: ^1.7.0
+  reflect-metadata: ^0.1.13
+  npmlog: ^4.1.2
+  osenv: ^0.1.5
+  npm-autoloader: file:../npm-autoloader
+  pkg-dir: ^4.2.0
 
 devDependencies:
   "@types/deep-diff": ^1.0.0
-  "@types/node": ^12.7.5
+  "@types/node": ^12.7.8
   "@types/yaml": ^1.0.2
   typescript: ^3.6.3
-  npm-autoloader: ^1.0.0
+  "@types/npmlog": ^4.1.2
+  "@types/osenv": ^0.1.0
