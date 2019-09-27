@@ -29,8 +29,8 @@ dependencies:
   reflect-metadata: ^0.1.13
   npmlog: ^4.1.2
   osenv: ^0.1.5
-  npm-autoloader: file:../npm-autoloader
   pkg-dir: ^4.2.0
+  npm-autoloader: ^1.0.0
 
 devDependencies:
   "@types/deep-diff": ^1.0.0
