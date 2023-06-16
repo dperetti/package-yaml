@@ -11,6 +11,9 @@
         "yaml"
     ],
     "main": "index.js",
+    "bin": {
+      "package-yaml": "./index.js"
+    },
     "scripts": {
         "build": "tsc",
         "watch": "tsc --watch",
